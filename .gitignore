@@ -3,3 +3,108 @@ obj/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
+
+# =========================
+# Build folders
+# =========================
+bin/
+obj/
+out/
+
+# =========================
+# User-specific files
+# =========================
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Rider / JetBrains
+# =========================
+.idea/
+*.iml
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.sample
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+packages/
+.nuget/
+
+# =========================
+# Entity Framework
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Test results
+# =========================
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# =========================
+# Publish output
+# =========================
+publish/
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# ASP.NET secrets
+# =========================
+secrets.json
+
+# =========================
+# Resharper
+# =========================
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# =========================
+# Node modules (if frontend exists)
+# =========================
+node_modules/
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+*.tmp
