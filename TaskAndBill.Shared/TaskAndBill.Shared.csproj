@@ -13,4 +13,8 @@
       <Folder Include="Helpers\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Serilog" Version="4.3.2-dev-02433" />
+    </ItemGroup>
+
 </Project>

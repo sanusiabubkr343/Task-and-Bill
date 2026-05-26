@@ -7,10 +7,16 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="DTOs\" />
+      <Folder Include="DTOs\Invoices\" />
+      <Folder Include="DTOs\PaymentTransaction\" />
+      <Folder Include="DTOs\TaskItem\" />
+      <Folder Include="DTOs\Users\" />
       <Folder Include="Interfaces\Repositories\" />
-      <Folder Include="Interfaces\Services\" />
       <Folder Include="Services\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Serilog" Version="4.3.2-dev-02433" />
     </ItemGroup>
 
 </Project>
